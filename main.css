@@ -40,6 +40,9 @@ a{
     color:rgb(61, 61, 244);
     text-decoration: none;
 }
+.gmail{
+    color: grey;
+}
 .sign{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -112,7 +115,7 @@ a{
     }
     .inpu{
       
-        /* width:22rem; */
+        width:20rem;
       
     }
     .card-1{
