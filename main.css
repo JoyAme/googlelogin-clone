@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@500;600;700&family=Roboto+Slab:wght@500;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +26,7 @@ body{
 }
 .card{
     display: grid;
+
     justify-content: center;
     margin-top: 12%;
     
@@ -36,29 +39,39 @@ body{
     color: grey;
     margin-bottom: 30px;
 }
+.forgot{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
 a{
     color:rgb(61, 61, 244);
     text-decoration: none;
+    
 }
 .gmail{
     color: grey;
 }
 .sign{
     margin-top: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .inpu{
-    margin-top: 25px;
+    margin-top: 28px;
     width:26rem;
-   height:45px ;
+   height:58px ;
    margin-bottom: 11px;
    border-radius: 3px;
-   border: 2px solid grey;
+   border: 2px solid #dadce0;
    padding: 10px;
+  
    outline-color: blue;
 }
 .inpu::placeholder{
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
 }
 .forgot {
     font-size: 16px;
@@ -82,12 +95,13 @@ a{
     border: none;
 }
 .card-1{
-   
+   /* width:450px; */
   padding: 20px;
   height:90%;
     margin: 20px;
     border-radius: 8px;
-    box-shadow: 0px 3px 4px 0px grey;
+    border:1px solid #dadce0;
+    /* box-shadow: 0px 3px 4px 0px grey; */
 }
 /* footer */
 .footer{
@@ -98,7 +112,7 @@ a{
 .arrow{
     display: flex;
     align-items: center;
-    gap:4px;
+    gap:3px;
 }
 .arrow1{
     display: flex;
@@ -108,19 +122,48 @@ a{
 .foot{
     margin-left: 10px;
 }
+span{
+    width:40px;
+}
+.material-symbols-outlined {
+    /* font-size: 40px; */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+ 
+}
 
 @media screen and (max-width:480px){
     .card{
         margin-top: 33%;
+       
+    }
+    .card-1{
+        padding: 14px;
     }
     .inpu{
       
-        width:20rem;
+        width:22rem;
       
     }
-    .card-1{
+    .comp{
+        font-size: 14px;
+    }
+    .foot {
+        font-size: 12px;
+      
+    }
+    .forgot{
+        font-size: 14px;
+    }
+    /* .card-1{
    
-        padding: 10px;
+        padding: 6px;
         
+      } */
+      .bttn{
+        padding: 10px;
       }
 }
