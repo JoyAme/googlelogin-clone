@@ -59,11 +59,11 @@ a{
 .inpu{
     margin-top: 28px;
     width:26rem;
-   height:58px ;
+   height:54px ;
    margin-bottom: 11px;
    border-radius: 3px;
    border: 2px solid #dadce0;
-   padding: 10px;
+   padding: 8px;
   
    outline-color: blue;
 }
@@ -95,7 +95,7 @@ a{
     border: none;
 }
 .card-1{
-   width:450px;
+   /* width:450px; */
   padding: 10px;
   height:90%;
     margin: 20px;
@@ -141,7 +141,7 @@ span{
        
     }
     .card-1{
-       width:430px;
+       /* width:410px; */
     }
     .inpu{
       
