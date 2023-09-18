@@ -26,9 +26,9 @@ body{
 }
 .card{
     display: grid;
-
+/* align-items: center; */
     justify-content: center;
-    margin-top: 12%;
+    margin-top: 8%;
     
 }
 .top{
@@ -95,8 +95,8 @@ a{
     border: none;
 }
 .card-1{
-   /* width:450px; */
-  padding: 20px;
+   width:450px;
+  padding: 10px;
   height:90%;
     margin: 20px;
     border-radius: 8px;
@@ -137,15 +137,15 @@ span{
 
 @media screen and (max-width:480px){
     .card{
-        margin-top: 33%;
+        /* margin-top: 23%; */
        
     }
     .card-1{
-        padding: 14px;
+        /* padding: 14px; */
     }
     .inpu{
       
-        width:22rem;
+        /* width:22rem; */
       
     }
     .comp{
