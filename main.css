@@ -95,7 +95,7 @@ a{
     border: none;
 }
 .card-1{
-   width:450px;
+   /* width:450px; */
   padding: 10px;
   height:90%;
     margin: 20px;
@@ -145,7 +145,7 @@ span{
     }
     .inpu{
       
-        width:24rem;
+        /* width:24rem; */
       
     }
     .comp{
