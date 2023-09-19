@@ -93,6 +93,9 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.google{
+   width: 200px;
+}
 .btn{
     width:20%;
     border-radius: 3px;
@@ -119,12 +122,16 @@ a{
 .footer{
     display: flex;
     color: grey;
-    justify-content: space-around;
+    margin-top: 20px;
+    justify-content: space-between;
 }
 .arrow{
     display: flex;
     align-items: center;
     gap:3px;
+}
+#country{
+    border: none;
 }
 .arrow1{
     display: flex;
