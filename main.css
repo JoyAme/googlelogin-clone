@@ -24,12 +24,21 @@ body{
 .goole-L{
     color: rgb(70, 167, 22);
 }
-.card{
+/* .card{
     display: grid;
-/* align-items: center; */
+
     justify-content: center;
     margin-top: 8%;
     
+} */
+.card{
+    width:100%;
+    align-items: center;
+    height:100vh;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .top{
     text-align: center;
@@ -96,9 +105,12 @@ a{
 }
 .card-1{
    width:450px;
-  padding: 7px;
-  height:90%;
-    margin: 20px;
+  padding: 7px 17px;
+  /* align-items: center;
+  height:90%; */
+
+  
+    /* margin: 20px; */
     border-radius: 8px;
     border:1px solid #dadce0;
     /* box-shadow: 0px 3px 4px 0px grey; */
