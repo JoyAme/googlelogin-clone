@@ -122,6 +122,7 @@ a{
 .footer{
     display: flex;
     color: grey;
+    gap:30px;
     margin-top: 20px;
     justify-content: space-between;
 }
